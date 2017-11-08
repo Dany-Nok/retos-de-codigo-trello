@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #0079BF;
+}
+header nav{
+  background-color: #0431B4;
+  display: block;
+}
+.tableros_box, .search_box{
+  display: inline-block;
+  width: 50px;
+  height: 10px;
+  border: 1px solid red;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: #0079BF;
+  border-radius: 5px;
+  color: white;
+}
+ul li i{
+  display: inline-block;
+  padding: 12px;
+  margin-left: 2px;
+}
+#trello_logo{
+  width: 10%;
+  height: auto;
+  background-color: white;
+  display: inline-block;
+}
+#anadir{
+  width: 200px;
+  height: 35px;
+  text-align: left;
+  background-color: blue;
+  color: white;
+  border-style: none;
+}
