@@ -1,43 +1,91 @@
 body{
+  background-color: #1d8dc2;
+  font-family: 'Open Sans', sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #0079BF;
-}
-header nav{
-  background-color: #0431B4;
-  display: block;
-}
-.tableros_box, .search_box{
-  display: inline-block;
-  width: 50px;
-  height: 10px;
-  border: 1px solid red;
 }
 ul li{
-  list-style: none;
   display: inline-block;
-  width: 40px;
+  list-style: none;
+}
+.iconos_izquierda{
+  float: left;
+  clear: both;
+}
+.iconos_derecha{
+  float: right;
+  clear: both;
+}
+.cuadro_contenedor_1{
+  display: inline-block;
+  width: 150px;
   height: 40px;
-  background-color: #0079BF;
+  background-color: darkblue;
   border-radius: 5px;
+  margin: 5px;
+  top: 10px;
+}
+.fa-trello, .cuadro_contenedor_1 p{
+  display: inline-block;
+  padding: 5px;
+  margin: 5px;
   color: white;
 }
-ul li i{
+.fa{
   display: inline-block;
-  padding: 12px;
-  margin-left: 2px;
+  color: white;
 }
-#trello_logo{
-  width: 10%;
-  height: auto;
+.encabezado{
+  display: inline-block;
+  background-color: white;
+  width: 100%;
+  height: 45px;
+}
+#version_001{
+  display: inline-block;
+  margin: 20px;
+}
+#version_002{
   background-color: white;
   display: inline-block;
 }
-#anadir{
-  width: 200px;
-  height: 35px;
-  text-align: left;
-  background-color: blue;
+#escribe_aqui, #escribe_aca{
+  display: block;
+  background-color: #dbdcdf;
+  border: 1px solid #c6cbd0;
+  padding: 5px;
+  margin: 5px;
+  margin-bottom: 3px;
+  width: 300px;
+  height: auto;
+}
+#agrega_lista, #guardar, #anadir{
+  display: inline-block;
+  padding: 10px 15px;
   color: white;
   border-style: none;
+}
+#agrega_lista{
+  background-color: #11658e;
+  padding-right: 200px;
+}
+#guardar, #anadir{
+  background-color: #6cc059;
+  border-radius: 5px;
+  font-weight: bold;
+  margin: 5px;
+  margin-top: 2px;
+}
+.times{
+  display: inline-block;
+  background-color: white;
+  color: #a0a2a5;
+  padding: 5px;
+}
+p{
+  font-weight: bold;
+  margin: 10px;
+}
+a{
+  margin: 10px;
 }

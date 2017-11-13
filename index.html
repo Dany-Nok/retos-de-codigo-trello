@@ -2,42 +2,35 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>(Copia de) Trello</title>
-    <link rel="stylesheet" href="assets/css/styles.css">
+    <title>(Maqueta de) Trello</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <header>
-      <nav>
-        <div class="tableros_box">
-          <i class="fa fa-trello" aria-hidden="true"></i>
-          <p>Tableros</p>
-        </div>
-        <div class="search_box">
-          <i class="fa fa-search" aria-hidden="true"></i>
-        </div>
-        <img src="assets/img/trello-logo.png" id="trello_logo">
-        <ul>
-          <li><i class="fa fa-plus" aria-hidden="true"></i></li>
-          <li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
-          <li><i class="fa fa-bell-o" aria-hidden="true"></i></li>
-          <li><i class="fa fa-user-circle fa-2x" aria-hidden="true"></i></li>
-        </ul>
-      </nav>
+      <div class="encabezado">
+          <ul class="iconos_izquierda">
+            <li><div class="cuadro_contenedor_1">
+                <i class="fa fa-trello" aria-hidden="true"></i>
+                <p> Tableros</p></div>
+            </li>
+            <li><i class="fa fa-search" aria-hidden="true"></i></li>
+          </ul>
+          <ul class="iconos_derecha">
+            <li><i class="fa fa-plus" aria-hidden="true"></i></li>
+            <li><i class="fa fa-info-circle" aria-hidden="true"></i></li>
+            <li><i class="fa fa-bell" aria-hidden="true"></i></li>
+            <li><i class="fa fa-user-circle-o" aria-hidden="true"></i></li>
+          </ul>
+      </div>
     </header>
-    <section>
-      <div class="sub_menu">
-        <h2>Tablero - Reto de Código</h2>
-        <i class="fa fa-star-o" aria-hidden="true"></i>
+    <div id="version_001">
+      <button type="button" id="agrega_lista">Añadir una Lista...</button>
+      <br>
+      <div id="version_002">
       </div>
-    </section>
-    <section>
-      <div class="add_list">
-        <button type="button" id="anadir" onclick="add()">Añadir una Lista...</button>
-      </div>
-      <div class="tareas">
-      </div>
-    </section>
+    </div>
     <script type="text/javascript" src="assets/js/app.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
   </body>
 </html>
